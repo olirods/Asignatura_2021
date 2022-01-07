@@ -3,3 +3,6 @@ node_modules
 .idea
 .gitkeep
 package-lock.json
+dapp/src/contracts
+dapp/package-lock.json
+dapp/package-lock.json
