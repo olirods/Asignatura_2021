@@ -37,6 +37,7 @@ export const Alumno = () => {
         <ul>
             <li><b>Nombre:</b> {datos?.nombre ?? "Desconocido"}</li>
             <li><b>Email:</b> {datos?.email ?? "Desconocido"}</li>
+            <li><b>DNI:</b> {datos?.dni ?? "Desconocido"}</li>
             <li><b>Address:</b> {addr}</li>
         </ul>
         <Link to="/alumnos">Volver</Link>

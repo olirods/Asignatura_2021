@@ -18,6 +18,7 @@ const AlumnoRow = ({alumnoIndex}) => {
         <th>A<sub>{alumnoIndex}</sub></th>
         <td>{datos?.nombre}</td>
         <td>{datos?.email}</td>
+        <td>{datos?.dni}</td>
         <td><Link to={`/alumnos/${addr}`}>Info</Link></td>
     </tr>;
 };

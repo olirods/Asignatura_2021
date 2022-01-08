@@ -1,13 +1,11 @@
 
-const AlumnosHead = () =>
+const ProfesoresHead = () =>
     <thead>
     <tr>
         <th>#</th>
         <th>Nombre</th>
-        <th>email</th>
-        <th>DNI</th>
         <th>Cmds</th>
     </tr>
     </thead>;
 
-export default AlumnosHead;
+export default ProfesoresHead;

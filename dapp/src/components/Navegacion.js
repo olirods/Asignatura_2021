@@ -6,6 +6,7 @@ const Navegacion = () => (
             <li><Link to="/">Home</Link></li>
             <li><Link to="/evaluaciones/">Evaluaciones</Link></li>
             <li><Link to="/alumnos/">Alumnos</Link></li>
+            <li><Link to="/profesores/">Profesores</Link></li>
             <li><Link to="/calificaciones/">Calificaciones</Link></li>
             <li><Link to="/miscosas/">Mis Cosas</Link></li>
         </ul>

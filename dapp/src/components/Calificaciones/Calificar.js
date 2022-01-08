@@ -8,9 +8,9 @@ const SoloProfesor = ({children}) => {
     const {useCacheCall} = useDrizzle();
     const drizzleState = useDrizzleState(state => state);
 
-    const profesorAddr = useCacheCall("Asignatura", "profesor");
+    const esProfesor = useCacheCall("Asignatura", "esProfesor", drizzleState.accounts[0]);
 
-    if (profesorAddr !== drizzleState.accounts[0]) {
+    if (!esProfesor) {
         return <p>NO SOY EL PROFESOR</p>
     }
     return <>
