@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '../css/App.css';
 import Loading from './Loading';
 import Layout from './Layout';
-import Home from './Home';
+import Home from './Home/Home';
 import Evaluaciones from "./Evaluaciones/Evaluaciones";
 import {Alumnos, Alumno} from "./Alumnos/Alumnos";
 import {Profesores, Profesor} from "./Profesores/Profesores";

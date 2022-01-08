@@ -79,7 +79,8 @@ const Calificar = () => {
                     Calificar
                 </button>
 
-                <p> Último estado = {status} </p>
+                <p> {status != 'success' ? '' : 'Operación realizada con éxito'} </p>
+
             </form>
         </SoloProfesor>
     </article>);

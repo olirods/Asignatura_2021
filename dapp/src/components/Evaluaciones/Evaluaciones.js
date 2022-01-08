@@ -2,6 +2,7 @@ import {drizzleReactHooks} from '@drizzle/react-plugin'
 
 import EvaluacionesHead from "./EvaluacionesHead";
 import EvaluacionesBody from "./EvaluacionesBody";
+import NuevaEvaluacion from "./NuevaEvaluacion";
 
 const {useDrizzle} = drizzleReactHooks;
 
@@ -17,6 +18,7 @@ const Evaluaciones = () => {
                 <EvaluacionesHead/>
                 <EvaluacionesBody evaluacionesLength={el ?? 0}/>
             </table>
+            <NuevaEvaluacion/>
         </section>
     );
 };

@@ -3,6 +3,7 @@ import {useParams, Link} from "react-router-dom";
 
 import AlumnosHead from "./AlumnosHead";
 import AlumnosBody from "./AlumnosBody";
+import AutoMatricular from "./AutoMatricular";
 
 const {useDrizzle} = drizzleReactHooks;
 
@@ -18,6 +19,7 @@ export const Alumnos = () => {
                 <AlumnosHead/>
                 <AlumnosBody matriculasLength={ml || 0}/>
             </table>
+            <AutoMatricular/>
         </section>
     );
 };
